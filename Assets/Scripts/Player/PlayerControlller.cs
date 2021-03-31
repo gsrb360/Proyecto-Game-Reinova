@@ -11,7 +11,7 @@ public class PlayerControlller : MonoBehaviour {
 	Animator ani;
 	public float velocity = 5f;
 	public float jumpPower = 5f;
-	private bool grounded;
+	public bool grounded;
 	private bool dobleSalto;
 	private bool defenza;
 	private bool ataque;
@@ -167,27 +167,24 @@ public class PlayerControlller : MonoBehaviour {
 		StartCoroutine ("esperarGolpe");
 	}
 
-	void OnCollisionEnter2D(Collision2D col)
-	{
-		if (col.gameObject.tag == "Suelo") {
-			dobleSalto = true;
-			grounded = true;
-		}
-	}
+	//void OnCollisionEnter2D(Collision2D col)
+	//{
+	//	if (col.gameObject.tag == "Suelo") {
+	//		dobleSalto = true;
+	//	}
+	//}
 
-	void OnCollisionStay2D(Collision2D col)
-	{
-		if (col.gameObject.tag == "Suelo") {
-			dobleSalto = true;
-			grounded = true;
-		}
-	}
+	//void OnCollisionStay2D(Collision2D col)
+	//{
+	//	if (col.gameObject.tag == "Suelo") {
+	//		dobleSalto = true;
+	//	}
+	//}
 
 	void OnCollisionExit2D(Collision2D col)
 	{
 		if (col.gameObject.tag == "Suelo") {
 			dobleSalto = true;
-			grounded = false;
 		}
 	}
 
