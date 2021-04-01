@@ -10,7 +10,10 @@ public class comprobarSuelo : MonoBehaviour
     {
         player = GetComponentInParent<PlayerControlller>();
     }
-
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        player.grounded = true;
+    }
     void OnCollisionStay2D(Collision2D col)
     {
         player.grounded = true;
