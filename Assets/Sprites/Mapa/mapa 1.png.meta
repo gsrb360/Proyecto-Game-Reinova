@@ -1,7 +1,58 @@
 fileFormatVersion: 2
 guid: 9103f74d7d4bc0147af21cb5383a8f1b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 255061413823989566
+    second: mapa 1_1
+  - first:
+      213: 6046683557617269551
+    second: mapa 1_2
+  - first:
+      213: 4335528775583248646
+    second: mapa 1_3
+  - first:
+      213: 6511642038443737094
+    second: mapa 1_4
+  - first:
+      213: -1299572077203280137
+    second: mapa 1_5
+  - first:
+      213: 8468961829129910496
+    second: mapa 1_6
+  - first:
+      213: -1942917666839905474
+    second: mapa 1_7
+  - first:
+      213: -5682764437492746298
+    second: mapa 1_8
+  - first:
+      213: -8337983481830877204
+    second: mapa 1_9
+  - first:
+      213: -4909133490662759398
+    second: mapa 1_0
+  - first:
+      213: 4927463703666262020
+    second: mapa 1_10
+  - first:
+      213: 5003624041419891086
+    second: mapa 1_11
+  - first:
+      213: -816628455035772615
+    second: mapa 1_12
+  - first:
+      213: -5926041170494780894
+    second: mapa 1_13
+  - first:
+      213: 1922207515851826333
+    second: mapa 1_14
+  - first:
+      213: 5164193995955152830
+    second: mapa 1_15
+  - first:
+      213: 2634588288486634249
+    second: mapa 1_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +92,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -74,7 +125,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -86,7 +137,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -101,7 +152,598 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mapa 1_1
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1398
+        width: 158
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3743e621092a8300800000000000000
+      internalID: 255061413823989566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_2
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 1398
+        width: 158
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bf8f0b8a22ae350800000000000000
+      internalID: 6046683557617269551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_3
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 1398
+        width: 154
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601bf166374ea2c30800000000000000
+      internalID: 4335528775583248646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_4
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 1218
+        width: 154
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60080fd0feffd5a50800000000000000
+      internalID: 6511642038443737094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_5
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 1293
+        width: 153
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe284ac41ef6fde0800000000000000
+      internalID: -1299572077203280137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_6
+      rect:
+        serializedVersion: 2
+        x: 4028
+        y: 1363
+        width: 153
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e871a1c9ebc78570800000000000000
+      internalID: 8468961829129910496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_7
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 1363
+        width: 659
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 189.02547, y: -70.41459}
+        - {x: 189.02547, y: -4.560934}
+        - {x: 250.54889, y: -4.560934}
+        - {x: 259.33795, y: 4.219554}
+        - {x: 259.33795, y: 65.68297}
+        - {x: 325.25592, y: 65.68297}
+        - {x: 329.5, y: 74.463455}
+        - {x: 329.5, y: 144.70735}
+        - {x: 325.25592, y: 149.5}
+        - {x: -320.74017, y: 149.5}
+        - {x: -329.5, y: 144.70735}
+        - {x: -329.5, y: 74.463455}
+        - {x: -320.74017, y: 65.68297}
+        - {x: -259.21674, y: 65.68297}
+        - {x: -259.21674, y: 4.219554}
+        - {x: -250.42766, y: -4.560934}
+        - {x: -188.90422, y: -4.560934}
+        - {x: -188.90422, y: -70.41459}
+        - {x: -180.11516, y: -79.19508}
+        - {x: -114.1972, y: -79.19508}
+        - {x: -114.1972, y: -140.6585}
+        - {x: -105.408134, y: -149.43898}
+        - {x: 109.9239, y: -149.43898}
+        - {x: 118.71296, y: -140.6585}
+        - {x: 118.71296, y: -79.19508}
+        - {x: 180.2364, y: -79.19508}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e3b3d201dae5905e0800000000000000
+      internalID: -1942917666839905474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_8
+      rect:
+        serializedVersion: 2
+        x: 7482
+        y: 1148
+        width: 153
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7b5094ad3c221b0800000000000000
+      internalID: -5682764437492746298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9000
+        height: 1302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3555.1758, y: 138.29268}
+        - {x: 3555.1758, y: 76.82927}
+        - {x: 3493.6523, y: 76.82927}
+        - {x: 3484.8633, y: 68.04878}
+        - {x: 3484.8633, y: 2.195122}
+        - {x: 3418.9453, y: 2.195122}
+        - {x: 3410.1562, y: -6.585366}
+        - {x: 3410.1562, y: -68.04878}
+        - {x: 2917.9688, y: -68.04878}
+        - {x: 2909.1797, y: -76.82927}
+        - {x: 2909.1797, y: -212.92683}
+        - {x: 2772.9492, y: -212.92683}
+        - {x: 2764.1602, y: -221.70732}
+        - {x: 2764.1602, y: -357.80487}
+        - {x: 1195.3125, y: -357.80487}
+        - {x: 1195.3125, y: 142.68292}
+        - {x: 1186.5234, y: 151.46341}
+        - {x: 1050.293, y: 151.46341}
+        - {x: 1050.293, y: 283.17072}
+        - {x: 1041.5039, y: 291.95123}
+        - {x: 909.66797, y: 291.95123}
+        - {x: 909.66797, y: 428.04877}
+        - {x: 900.8789, y: 436.82925}
+        - {x: 254.88281, y: 436.82925}
+        - {x: 241.69922, y: 423.65854}
+        - {x: 241.69922, y: -498.2927}
+        - {x: -2474.121, y: -498.2927}
+        - {x: -2474.121, y: -436.82925}
+        - {x: -2482.9102, y: -428.04877}
+        - {x: -2548.8281, y: -428.04877}
+        - {x: -2548.8281, y: -366.58536}
+        - {x: -2557.6172, y: -357.80487}
+        - {x: -2693.8477, y: -357.80487}
+        - {x: -2693.8477, y: -85.60976}
+        - {x: -2627.9297, y: -85.60976}
+        - {x: -2619.1406, y: -76.82927}
+        - {x: -2619.1406, y: -10.97561}
+        - {x: -2557.6172, y: -10.97561}
+        - {x: -2548.8281, y: -2.195122}
+        - {x: -2548.8281, y: 59.26829}
+        - {x: -2342.2852, y: 59.26829}
+        - {x: -2333.496, y: 68.04878}
+        - {x: -2333.496, y: 133.90244}
+        - {x: -2052.246, y: 133.90244}
+        - {x: -2043.457, y: 142.68292}
+        - {x: -2043.457, y: 204.14635}
+        - {x: -1907.2266, y: 204.14635}
+        - {x: -1898.4375, y: 212.92683}
+        - {x: -1898.4375, y: 278.7805}
+        - {x: -1836.9141, y: 278.7805}
+        - {x: -1828.125, y: 287.56097}
+        - {x: -1828.125, y: 428.04877}
+        - {x: -1836.9141, y: 436.82925}
+        - {x: -1898.4375, y: 436.82925}
+        - {x: -1898.4375, y: 498.2927}
+        - {x: -1907.2266, y: 507.07318}
+        - {x: -1973.1445, y: 507.07318}
+        - {x: -1973.1445, y: 572.9268}
+        - {x: -1981.9336, y: 581.70734}
+        - {x: -2043.457, y: 581.70734}
+        - {x: -2043.457, y: 643.1707}
+        - {x: -2052.246, y: 651}
+        - {x: -2772.9492, y: 651}
+        - {x: -2781.7383, y: 643.1707}
+        - {x: -2781.7383, y: 581.70734}
+        - {x: -2843.2617, y: 581.70734}
+        - {x: -2852.0508, y: 572.9268}
+        - {x: -2852.0508, y: 507.07318}
+        - {x: -2913.5742, y: 507.07318}
+        - {x: -2922.3633, y: 498.2927}
+        - {x: -2922.3633, y: 436.82925}
+        - {x: -2988.2812, y: 436.82925}
+        - {x: -2997.0703, y: 428.04877}
+        - {x: -2997.0703, y: 291.95123}
+        - {x: -3418.9453, y: 291.95123}
+        - {x: -3427.7344, y: 283.17072}
+        - {x: -3427.7344, y: 221.70732}
+        - {x: -4500, y: 221.70732}
+        - {x: -4500, y: -651}
+        - {x: 4500, y: -651}
+        - {x: 4500, y: 147.07317}
+        - {x: 3563.9648, y: 147.07317}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ce755662338894c80800000000000000
+      internalID: -8337983481830877204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_0
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 330
+        width: 1212
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 281.62308, y: -223.17075}
+        - {x: 290.41214, y: -214.39026}
+        - {x: 290.41214, y: -152.92683}
+        - {x: 351.93558, y: -152.92683}
+        - {x: 360.72464, y: -144.14635}
+        - {x: 360.72464, y: -82.68294}
+        - {x: 422.24808, y: -82.68294}
+        - {x: 431.03714, y: -73.90245}
+        - {x: 431.03714, y: -8.048792}
+        - {x: 496.9551, y: -8.048792}
+        - {x: 505.74417, y: 0.7316961}
+        - {x: 505.74417, y: 62.19511}
+        - {x: 567.26764, y: 62.19511}
+        - {x: 576.0567, y: 70.9756}
+        - {x: 576.0567, y: 286.09753}
+        - {x: 567.26764, y: 294.87802}
+        - {x: 351.93558, y: 294.87802}
+        - {x: 343.1465, y: 286.09753}
+        - {x: 343.1465, y: 149.99998}
+        - {x: 206.91606, y: 149.99998}
+        - {x: 198.127, y: 141.2195}
+        - {x: 198.127, y: 5.12194}
+        - {x: 136.60356, y: 5.12194}
+        - {x: 127.8145, y: -3.6585476}
+        - {x: 127.8145, y: -65.12196}
+        - {x: 66.29106, y: -65.12196}
+        - {x: 57.502003, y: -73.90245}
+        - {x: 57.502003, y: -135.36586}
+        - {x: -223.748, y: -135.36586}
+        - {x: -232.53706, y: -144.14635}
+        - {x: -232.53706, y: -210.00002}
+        - {x: -584.09955, y: -210.00002}
+        - {x: -592.8886, y: -218.7805}
+        - {x: -592.8886, y: -289.0244}
+        - {x: -584.09955, y: -297.8049}
+        - {x: 206.91606, y: -297.8049}
+        - {x: 215.70512, y: -289.0244}
+        - {x: 215.70512, y: -223.17075}
+      tessellationDetail: 1
+      bones: []
+      spriteID: a14a21699114fdbb0800000000000000
+      internalID: -4909133490662759398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_10
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 1121
+        width: 2156
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 746.381, y: -141.19508}
+        - {x: 755.17004, y: -132.4146}
+        - {x: 755.17004, y: -66.560936}
+        - {x: 821.088, y: -66.560936}
+        - {x: 829.8771, y: -57.78045}
+        - {x: 829.8771, y: 3.6829655}
+        - {x: 891.4005, y: 3.6829655}
+        - {x: 900.1896, y: 12.463453}
+        - {x: 900.1896, y: 78.31711}
+        - {x: 1036.42, y: 78.31711}
+        - {x: 1045.2091, y: 87.0976}
+        - {x: 1045.2091, y: 157.3415}
+        - {x: 1036.42, y: 166.122}
+        - {x: 829.8771, y: 166.122}
+        - {x: 829.8771, y: 227.5854}
+        - {x: 821.088, y: 236.36589}
+        - {x: 684.85754, y: 236.36589}
+        - {x: 684.85754, y: 297.8293}
+        - {x: 676.0685, y: 306.6098}
+        - {x: 605.756, y: 306.6098}
+        - {x: 596.9669, y: 297.8293}
+        - {x: 596.9669, y: 236.36589}
+        - {x: 460.73645, y: 236.36589}
+        - {x: 451.9474, y: 227.5854}
+        - {x: 451.9474, y: 166.122}
+        - {x: 179.48645, y: 166.122}
+        - {x: 179.48645, y: 227.5854}
+        - {x: 170.69739, y: 236.36589}
+        - {x: 38.861454, y: 236.36589}
+        - {x: 38.861454, y: 297.8293}
+        - {x: 30.072392, y: 306.6098}
+        - {x: -40.24011, y: 306.6098}
+        - {x: -49.02917, y: 297.8293}
+        - {x: -49.02917, y: 236.36589}
+        - {x: -185.25964, y: 236.36589}
+        - {x: -194.0487, y: 227.5854}
+        - {x: -194.0487, y: 166.122}
+        - {x: -466.50964, y: 166.122}
+        - {x: -466.50964, y: 227.5854}
+        - {x: -475.2987, y: 236.36589}
+        - {x: -611.5292, y: 236.36589}
+        - {x: -611.5292, y: 297.8293}
+        - {x: -620.31824, y: 306.6098}
+        - {x: -690.63074, y: 306.6098}
+        - {x: -699.4198, y: 297.8293}
+        - {x: -699.4198, y: 236.36589}
+        - {x: -835.65027, y: 236.36589}
+        - {x: -844.43933, y: 227.5854}
+        - {x: -844.43933, y: 166.122}
+        - {x: -1050.9823, y: 166.122}
+        - {x: -1059.7714, y: 157.3415}
+        - {x: -1059.7714, y: 12.463453}
+        - {x: -1050.9823, y: 3.6829655}
+        - {x: -985.06433, y: 3.6829655}
+        - {x: -985.06433, y: -57.78045}
+        - {x: -976.27527, y: -66.560936}
+        - {x: -914.75183, y: -66.560936}
+        - {x: -914.75183, y: -132.4146}
+        - {x: -905.96277, y: -141.19508}
+        - {x: -475.2987, y: -141.19508}
+        - {x: -466.50964, y: -132.4146}
+        - {x: -466.50964, y: -66.560936}
+        - {x: 161.90833, y: -66.560936}
+        - {x: 161.90833, y: -128.02435}
+        - {x: 175.09192, y: -141.19508}
+        - {x: 236.61536, y: -141.19508}
+        - {x: 236.61536, y: -202.6585}
+        - {x: 245.40442, y: -211.43898}
+        - {x: 306.92786, y: -211.43898}
+        - {x: 306.92786, y: -272.9024}
+        - {x: 315.71692, y: -281.6829}
+        - {x: 605.756, y: -281.6829}
+        - {x: 614.54504, y: -272.9024}
+        - {x: 614.54504, y: -141.19508}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 40088a4b12ed16440800000000000000
+      internalID: 4927463703666262020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_11
+      rect:
+        serializedVersion: 2
+        x: 5878
+        y: 614
+        width: 561
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 259.5917, y: 8.146362}
+        - {x: 259.5917, y: 78.39027}
+        - {x: 250.80263, y: 87.17075}
+        - {x: -250.17392, y: 87.17075}
+        - {x: -258.96298, y: 78.39027}
+        - {x: -258.96298, y: 8.146362}
+        - {x: -250.17392, y: -0.6341255}
+        - {x: -188.65048, y: -0.6341255}
+        - {x: -188.65048, y: -62.097538}
+        - {x: -179.86142, y: -70.87803}
+        - {x: 105.783104, y: -70.87803}
+        - {x: 114.57217, y: -62.097538}
+        - {x: 114.57217, y: -0.6341255}
+        - {x: 250.80263, y: -0.6341255}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e81ef6a2e81707540800000000000000
+      internalID: 5003624041419891086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_12
+      rect:
+        serializedVersion: 2
+        x: 6549
+        y: 712
+        width: 154
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931ed103fb0caa4f0800000000000000
+      internalID: -816628455035772615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_13
+      rect:
+        serializedVersion: 2
+        x: 6836
+        y: 678
+        width: 154
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a8154f3f872cda0800000000000000
+      internalID: -5926041170494780894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_14
+      rect:
+        serializedVersion: 2
+        x: 7123
+        y: 678
+        width: 154
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942fe62d8d0daa10800000000000000
+      internalID: 1922207515851826333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_15
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 999
+        width: 153
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7ac180417eaa740800000000000000
+      internalID: 5164193995955152830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapa 1_16
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 1036
+        width: 158
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90376a8f610ff8420800000000000000
+      internalID: 2634588288486634249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
