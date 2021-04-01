@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2099992838}
   m_Layer: 13
   m_Name: ComprobarSuelo
-  m_TagString: Untagged
+  m_TagString: PlayerPies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.91}
+  m_Offset: {x: 0, y: -0.76}
   serializedVersion: 2
-  m_Radius: 0.28
+  m_Radius: 0.43
 --- !u!114 &2099992838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,9 +280,13 @@ MonoBehaviour:
   JumpAxis: Jump
   velocity: 5
   jumpPower: 20
-  grounded: 0
+  grounded: 1
+  defenza: 0
+  ataque: 0
+  golpe: 0
   barraVida: {fileID: 0}
   barraPoder: {fileID: 0}
+  h: -1
 --- !u!58 &58829659889686646
 CircleCollider2D:
   m_ObjectHideFlags: 0
