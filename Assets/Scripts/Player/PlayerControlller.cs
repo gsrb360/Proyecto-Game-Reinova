@@ -13,10 +13,10 @@ public class PlayerControlller : MonoBehaviour {
 	public float jumpPower = 5f;
 	public bool grounded;
 	private bool dobleSalto;
-	private bool defenza;
-	private bool ataque;
+	public bool defenza;
+	public bool ataque;
 	private bool vivo;
-	private bool golpe;
+	public bool golpe;
 
 	private int nAtaque = 0;
 
@@ -29,7 +29,7 @@ public class PlayerControlller : MonoBehaviour {
 	public Image barraVida;
 	public Image barraPoder;
 
-	private float h;
+	public float h;
 
 	private GameObject manager;
 	// Use this for initialization
