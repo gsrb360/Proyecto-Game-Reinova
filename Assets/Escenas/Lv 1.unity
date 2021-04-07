@@ -815,11 +815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.27
+      value: -8.1
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.81
+      value: -1.24
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.z
@@ -945,6 +945,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: a7be6ea924b8aec4cab88bd2ad9a1b72, type: 2}
+    - target: {fileID: 210858059, guid: 8e5c3466e76566e47a69185d3209e919, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 285618990, guid: 8e5c3466e76566e47a69185d3209e919, type: 3}
       propertyPath: m_TagString
       value: Suelo
