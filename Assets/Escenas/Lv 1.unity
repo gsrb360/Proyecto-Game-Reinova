@@ -811,11 +811,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.08
+      value: -10.2
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.27
+      value: -0.94
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.z
@@ -854,6 +854,12 @@ PrefabInstance:
       propertyPath: barraVida
       value: 
       objectReference: {fileID: 525538738}
+    - target: {fileID: 114767597128539126, guid: 4eec49748da0b7d46b4dfd71d4ee2863,
+        type: 3}
+      propertyPath: proyectil
+      value: 
+      objectReference: {fileID: 5889966590093515268, guid: 649d635190b0ff74e842eeb05fc5e72d,
+        type: 3}
     - target: {fileID: 114767597128539126, guid: 4eec49748da0b7d46b4dfd71d4ee2863,
         type: 3}
       propertyPath: barraPoder

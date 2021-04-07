@@ -32,6 +32,8 @@ public class PlayerControlller : MonoBehaviour {
 	public float h;
 
 	private GameObject manager;
+
+	public GameObject proyectil;
 	// Use this for initialization
 	void Start()
 	{
@@ -150,13 +152,14 @@ public class PlayerControlller : MonoBehaviour {
 	}
 
 	public void ataqueDefinitivo(){
-		if (poder == 100f && !ataque && nAtaque == 0) {
+		if (poder == 100f && !ataque && nAtaque == 0 && grounded) {
 			rb.velocity = new Vector2 (0, 0);
 			ani.SetTrigger ("Definitiva");
 			ataque = true;
 			StartCoroutine ("esperarAtaqueDefinitivo");
 			poder = 0;
 			barraPoder.transform.localScale = new Vector3 (poder / 100, 1f, 1f);
+			StartCoroutine("proyecDefintivo");
 		}
 	}
 
@@ -210,5 +213,11 @@ public class PlayerControlller : MonoBehaviour {
 	IEnumerator esperarGolpe(){
 		yield return new WaitForSeconds (0.5f);
 		golpe = false;
+	}
+	IEnumerator proyecDefintivo()
+    {
+		yield return new WaitForSeconds(0.7f);
+		GameObject proyec = Instantiate(proyectil, new Vector3(transform.position.x + (transform.localScale.x * 1.75f), transform.position.y - 0.25f, 1), transform.rotation);
+		proyec.GetComponent<ProyectilDefinitivo>().Orientacion(transform.localScale.x);
 	}
 }
