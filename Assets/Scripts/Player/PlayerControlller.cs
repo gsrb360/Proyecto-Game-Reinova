@@ -192,7 +192,7 @@ public class PlayerControlller : MonoBehaviour {
 	}
 
 	IEnumerator esperarAtaque(){
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (0.3f);
 		nAtaque--;
 		if (nAtaque == 0) {
 			ataque = false;

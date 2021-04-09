@@ -815,11 +815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.1
+      value: -9.598
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.24
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalPosition.z
@@ -852,6 +852,11 @@ PrefabInstance:
     - target: {fileID: 4847428421618490, guid: 4eec49748da0b7d46b4dfd71d4ee2863, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50897627135727950, guid: 4eec49748da0b7d46b4dfd71d4ee2863,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114767597128539126, guid: 4eec49748da0b7d46b4dfd71d4ee2863,
         type: 3}
@@ -3606,7 +3611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636993965}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.64, y: 6.26, z: -10}
+  m_LocalPosition: {x: 0.58, y: 2.19, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3624,10 +3629,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1faadd39c3062dc41ac89fc25d9b9e8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxX: 98
+  maxX: 95
   minX: 3.6
   maxY: 7.5
   minY: -7.5
+  smoothTime: 0.5
 --- !u!1001 &1641836510
 PrefabInstance:
   m_ObjectHideFlags: 0
