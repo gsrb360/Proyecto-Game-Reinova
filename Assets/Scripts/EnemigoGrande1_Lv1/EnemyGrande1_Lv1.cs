@@ -25,10 +25,6 @@ public class EnemyGrande1_Lv1 : MonoBehaviour {
 		if (!activo) {
 			transform.localPosition = new Vector3 (0f, 0f, 0f);
         }
-        else
-        {
-			h = 1;
-        }
 	}
 
 	void OnCollisionEnter2D(Collision2D col)	{
