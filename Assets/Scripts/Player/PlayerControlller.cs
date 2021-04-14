@@ -20,7 +20,7 @@ public class PlayerControlller : MonoBehaviour {
 
 	private int nAtaque = 0;
 
-	private float vidaMax = 100f;
+	private float vidaMax = 15f;
 	private float poderMax = 100f;
 
 	private float vida;
@@ -44,8 +44,8 @@ public class PlayerControlller : MonoBehaviour {
 
 		h = 0;
 
-		barraVida.transform.localScale = new Vector3 (vida / 100, 1f, 1f);
-		barraPoder.transform.localScale = new Vector3 (poder / 100, 1f, 1f);
+		barraVida.transform.localScale = new Vector3 (vida / vidaMax, 1f, 1f);
+		barraPoder.transform.localScale = new Vector3 (poder / poderMax, 1f, 1f);
 
 		vivo = true;
 
@@ -133,7 +133,7 @@ public class PlayerControlller : MonoBehaviour {
 	public void recibirDaño(float damage){		
 		vida -= damage;
 		vida = Mathf.Clamp (vida, 0, vidaMax);
-		barraVida.transform.localScale = new Vector3 (vida / 100, 1f, 1f);
+		barraVida.transform.localScale = new Vector3 (vida / vidaMax, 1f, 1f);
 		if (vida == 0f && vivo) {
 			vivo = false;
 			ani.SetTrigger ("Muerto");

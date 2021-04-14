@@ -8,6 +8,11 @@ public class PausarGame : MonoBehaviour {
 	public GameObject gameOverPanel;
 	public GameObject[] nivelCompletado;
 
+	void Start()
+	{
+		Time.timeScale = 1;
+	}
+
 	public void pausa(float x){
 		if (x == 0f) {
 			desactivar (pausePanel, true);

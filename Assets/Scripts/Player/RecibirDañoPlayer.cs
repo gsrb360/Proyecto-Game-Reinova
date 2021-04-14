@@ -15,7 +15,7 @@ public class RecibirDañoPlayer : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D c) {
 		if (!hit) {
 			hit = true;
-			player.GetComponent<PlayerControlller> ().recibirDaño (10f);
+			player.GetComponent<PlayerControlller> ().recibirDaño (1f);
 			if (c.transform.position.x > player.transform.position.x) {
 				player.GetComponent<PlayerControlller> ().Retroceso (1f);
 			}else if (c.transform.position.x < player.transform.position.x) {

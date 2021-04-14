@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Escenas/Inicio.unity
     guid: a4c40e8db254ed24294152371141555b
   - enabled: 1
-    path: Assets/Escenas/Arcade.unity
-    guid: 9c9914fb716b751469434ac32e63a36b
-  - enabled: 1
     path: Assets/Escenas/Conocimiento.unity
     guid: e502e090666c00d40bb60638b5bab668
   - enabled: 1
